@@ -5,12 +5,12 @@ public class TemplateMethod {
         System.out.printf("%s%n", s);
     }
 
-    class abstract Game {
+    abstract class Game {
 
-        public initialise() {
+        public final void initialise() {
             start();
             play();
-            stop()
+            stop();
         }
 
         public abstract void start();
