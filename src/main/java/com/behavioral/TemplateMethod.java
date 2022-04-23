@@ -22,5 +22,20 @@ public class TemplateMethod {
 
     class FootballGame extends Game {
         
+         @Override
+         public void start() {
+             System.out.println("Start football game");
+         }
+
+          @Override
+         public void play() {
+             System.out.println("Play football game");
+         }
+
+          @Override
+         public void stop() {
+             System.out.println("Stop football game");
+         }
+
     }
 } 
